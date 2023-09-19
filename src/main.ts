@@ -7,7 +7,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('Demo')
     .setDescription('Secure NestJs Rest API with FAM')
-    .setVersion('1.0')
+    .setVersion('0.0.3')
     .addOAuth2(
       {
         type: 'oauth2',        
